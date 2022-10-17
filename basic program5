@@ -1,0 +1,27 @@
+WAP to find area of rectangle.
+package excercise1;
+
+import java.util.Scanner;
+
+public class xyz {
+
+	public static void main(String[] args) {
+		double area,l,w;
+		System.out.println("Enter length and width");
+		Scanner sc=new Scanner(System.in);
+		l=sc.nextDouble();
+		w=sc.nextDouble();
+		area=l*w;
+		System.out.println("area of rectangle =" +area);
+		
+
+
+	}
+
+}
+output=
+Enter length and width
+5.5
+4.9
+area of rectangle =26.950000000000003
+
