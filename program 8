@@ -1,0 +1,15 @@
+Take two different string input and print them in same line.
+package xyz;
+
+public class lmn {
+
+	public static void main(String[] args) {
+		String Firstname="priyanka";
+		String LastName="pawar";
+		System.out.print(Firstname);
+		System.out.print(LastName);
+	}
+
+}
+output=
+priyankapawar
