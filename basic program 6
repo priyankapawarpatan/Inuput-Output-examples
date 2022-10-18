@@ -1,0 +1,36 @@
+Take name, roll number and field of interest from user and print in the format below :
+Hey, my name is xyz and my roll number is xyz. My field of interest are xyz.
+package xyz;
+
+import java.util.Scanner;
+
+public class abc {
+
+	public static void main(String[] args) {
+		String name;
+		int roll_no;
+		String Field_of_interest;
+		System.out.println("Enter name ");
+		System.out.println("Enter Roll_no");
+		System.out.println("Enter Field_of_interest ");
+		Scanner sc=new Scanner(System.in);
+		name=sc.next();
+		roll_no=sc.nextInt();
+		Field_of_interest=sc.next();
+		System.out.println("my name is="   +name);
+		System.out.println("my Roll_no is =" +roll_no);
+		System.out.println("my Field_of_interest =" +Field_of_interest);
+
+	}
+
+}
+output=
+Enter name 
+Enter Roll_no
+Enter Field_of_interest 
+rahul
+76
+science
+my name is=rahul
+my Roll_no is =76
+my Field_of_interest =science
